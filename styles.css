@@ -249,6 +249,7 @@ table{
   color: #e590d2;
   border: 1px solid #e590d2;
   padding: 8px;
+  margin: 10px;
 }
 
 @media screen and (max-width:800px){
