@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+
+*{
+  color: #fff;
+  font-family: "Titillium Web";
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(#393939,black);
+}
+
+header{
+  width: 100%;
+  position: absolute;
+}
+
+.inicio{
+  color: #fff;
+}
+
+.inicio .contenido-seccion header{
+  padding: 30px 0;
+} 
+nav {
+  padding: 0 30px;
+  width: 100%;
+}
+
+.logo{
+  padding-top: 50px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Yellowtail";
+}
+
+.color{
+    color: #e590d2;
+    font-family: "Yellowtail";
+}
+
+ul{
+  background: #0000003b;
+    width: 100%;
+    display: none;
+  }
+  
+input:checked  ~ ul{
+    display:block;
+}
+
+input {
+    display: none;
+}
+
+label {
+    transition-duration: .3s;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    cursor: pointer
+}
+
+label:hover{
+    box-shadow: 0 0 35px #fff;
+}
+
+li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+  }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.info-perfil{
+  padding: 35px;
+}
+
+.title{
+  color: #e590d2;
+}
+
+.info{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .foto{
+    display: flex;
+    justify-content: center;
+  }
+
+  img{
+    border-radius: 60%;
+    border: 1px solid #fff;
+    width: 15%;
+  }
+
+  .titulo-seccion{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Yellowtail";
+    font-size: 40px;
+  }
+
+  .info-container{
+    padding-right: 20px;
+    border-right: 1px solid #bab9b9;
+  }
+
+  .contenido-seccion{
+    font-size: 20px;
+  }
+
+  .especial{
+    color: #e590d2;
+    font-weight: bold;
+  }
+
+
+  .fila{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  i{
+    padding: 9px 0;
+    color: #e590d2;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e590d2;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .titulo-detalle{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+
+  .habilidades{
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #e590d2;
+  }
+
+
+  .col{
+    margin-top: 45px;
+    text-align: center;
+  }
+.cont-barra{
+    display: flex;
+    align-items: center;
+}
+
+.barra{
+    display: flex;
+    border: 1px solid #000080;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.e{ 
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;}
+
+.resumen{
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo{
+  text-align: center;
+  width: 100%;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.datos{
+    width: 40%;
+    border-bottom: 1px solid #e590d2;
+}
+
+.descripcion{
+    border-left: 1px solid #e590d2;
+    padding-left: 20px;
+}
+
+.contacto{
+    padding: 30px;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+table{
+  padding-bottom: 30px;
+}
+
+.info-contact{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fila-hab{
+  margin-bottom: 20px;
+}
+
+.col-idioma{
+  display: flex;
+  justify-content: center;
+}
+
+.idioma{
+  padding: 10px;
+}
+
+.botones{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn{
+  font-size: 20px;
+  color: #e590d2;
+  border: 1px solid #e590d2;
+  padding: 8px;
+  margin: 10px;
+}
+
+@media screen and (max-width:800px){
+
+  ul{
+    width: 1000%;
+  }
+  .fila{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .figma-bar{
+    margin: unset;
+    border: none;
+  }
+  .col{
+    margin-top: 20px;
+    width: 100%;
+    text-align: -webkit-center;
+  }
+
+  .cont-barra{
+    justify-content: center;
+  }
+
+  .info-container{
+    border: none;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: -webkit-center;
+  }
+
+ table{
+      margin-top: 10px;
+      margin-bottom: 30px;
+  }
+
+  .titulo-seccion{
+    margin: 0;
+  }
+
+  .habilidades{
+    border: unset;
+  }
+
+  .fila-hab{
+    background: #e590d230;
+    padding: 20px;
+  }
+
+ 
+  .info-contact{
+    display: block;
+  }
+
+  .botones{
+    justify-content: space-between;
+  }
+}
