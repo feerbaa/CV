@@ -668,6 +668,7 @@ h3.hello span {
 }
 
 .portfolio .portfolio-heading .info-portfolio .img-portfolio {
+  width: 450px;
   padding: 10px;
   height: auto;
   border-radius: 10px;
