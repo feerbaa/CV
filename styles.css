@@ -924,10 +924,6 @@ h3.hello span {
   }
 
   .portfolio .container .proyecto-detalle .portfolio-heading .info-grid {
-    max-width: 100%;
-  }
-
-  .portfolio .container .proyecto-detalle .portfolio-heading .info-grid {
     display: grid;
     grid-template-columns: 1fr !important;
     gap: 1.5rem;
