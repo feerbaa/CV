@@ -113,6 +113,27 @@ document.querySelectorAll('.btn-ocultar').forEach(boton => {
 });
 
 
+  // Abre el popup con la imagen clickeada
+  function openPopup(src) {
+    const popup = document.getElementById("popup");
+    const popupImg = document.getElementById("popup-img");
+    popup.style.display = "block";
+    popupImg.src = src;
+  }
+
+  // Cierra el popup si se hace clic fuera de la imagen o en la X
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+
+  // Añadir evento a todas las imágenes
+  document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll(".img-low, .img-digital");
+    images.forEach(img => {
+      img.style.cursor = "zoom-in";
+      img.addEventListener("click", () => openPopup(img.src));
+    });
+  });
 
 
 
