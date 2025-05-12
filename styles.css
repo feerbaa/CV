@@ -331,6 +331,7 @@ h3.hello span {
   margin-bottom: 30px;
   font-size: 20px;
   color: #504e70;
+  text-align: justify;
 }
 
 .home .home-img {
