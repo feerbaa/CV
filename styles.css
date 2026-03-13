@@ -965,9 +965,9 @@ h3.hello span {
     margin-bottom: 15px;
   }
 
-  .home-info .btns-home a {
+  .home-info .btns-home .btn {
     margin-bottom: 1rem;
-     margin-right: 16px;
+    margin-right: 16px;
     
   }
   
