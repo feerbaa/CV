@@ -967,8 +967,11 @@ h3.hello span {
 
   .home .home-info .btns-home a:first-child {
     margin-bottom: 1rem;
-    /* ajusta el valor según necesites */
+     margin-right: 16px;
+    
   }
+  
+
 }
 
 .popup {
