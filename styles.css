@@ -307,6 +307,13 @@ ul {
   max-width: 60%;
 }
 
+
+.home-info .btns-home .btn {
+    margin-bottom: 1rem;
+    margin-right: 16px;
+    
+}
+
 h3.hello {
   font-size: 28px;
   margin: 15px 0;
