@@ -342,6 +342,10 @@ h3.hello span {
   text-align: justify;
 }
 
+.home-info .btns-home a{
+  margin-right: 16px;
+}
+
 .home .home-img {
   flex: 0 0 40%;
   max-width: 40%;
